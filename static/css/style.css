@@ -1,6 +1,8 @@
 /* Estilos generales */
 body {
-    background-color: #1e1e1e;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/003/580/722/small/abstract-black-polygon-green-light-futuristic-technology-design-background-vector.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Cubre todo el fondo */
+    background-position: center; /* Centra la imagen */
     color: white;
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -10,6 +12,7 @@ body {
     align-items: center; /* Centra todo verticalmente */
     flex-direction: column;
     text-align: center; /* Centra el texto */
+    height: 100vh; /* Asegura que cubra toda la altura de la ventana */
 }
 
 /* Contenedor principal */
@@ -17,7 +20,7 @@ body {
     width: 90%;
     max-width: 800px;
     text-align: center;
-    background-color: #333; /* Fondo oscuro para el contenedor */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro traslúcido */
     padding: 20px;
     border-radius: 10px;
 }
@@ -31,7 +34,6 @@ body {
 h1, h2 {
     color: #4CAF50; /* Color verde */
     font-size: 2em;
-    text-shadow: 0 0 10px #4CAF50, 0 0 20px #4CAF50, 0 0 30px #4CAF50; /* Sombra verde */
     margin-bottom: 20px;
 }
 
@@ -82,7 +84,6 @@ button:hover {
     width: 100%;
     height: auto;
     border: 5px solid #4CAF50; /* Borde verde */
-    box-shadow: 0 0 15px #4CAF50; /* Sombra verde */
 }
 
 /* Sección de imágenes procesadas */
@@ -105,7 +106,6 @@ button:hover {
     object-fit: cover;  /* Asegura que las imágenes no se deformen y llenen el recuadro */
     border-radius: 10px;  /* Esquinas redondeadas */
     border: 3px solid #4CAF50; /* Borde verde */
-    box-shadow: 0 0 15px #4CAF50;  /* Efecto de iluminación verde */
 }
 
 /* Efecto al pasar el ratón */
@@ -120,7 +120,6 @@ button:hover {
     height: 100px;
     overflow: hidden;
     border: 3px solid #4CAF50; /* Borde verde */
-    box-shadow: 0 0 15px #4CAF50;  /* Efecto de iluminación verde */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,4 +140,3 @@ button:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
-
