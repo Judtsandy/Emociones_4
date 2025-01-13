@@ -17,6 +17,9 @@ body {
     width: 90%;
     max-width: 800px;
     text-align: center;
+    background-color: #333; /* Fondo oscuro para el contenedor */
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* Sección de subir imagen */
@@ -26,9 +29,9 @@ body {
 
 /* Estilo para los encabezados */
 h1, h2 {
-    color: #9b4dff;
+    color: #4CAF50; /* Color verde */
     font-size: 2em;
-    text-shadow: 0 0 10px #9b4dff, 0 0 20px #9b4dff, 0 0 30px #9b4dff;
+    text-shadow: 0 0 10px #4CAF50, 0 0 20px #4CAF50, 0 0 30px #4CAF50; /* Sombra verde */
     margin-bottom: 20px;
 }
 
@@ -39,7 +42,7 @@ form {
 
 input[type="file"] {
     background-color: #2e2e2e;
-    border: 2px solid #9b4dff;
+    border: 2px solid #4CAF50; /* Borde verde */
     color: white;
     padding: 10px;
     margin-right: 10px;
@@ -48,7 +51,7 @@ input[type="file"] {
 }
 
 button {
-    background-color: #9b4dff;
+    background-color: #4CAF50; /* Fondo verde */
     border: none;
     color: white;
     padding: 10px 20px;
@@ -56,11 +59,11 @@ button {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s;
-    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+    text-shadow: 0 0 10px #4CAF50, 0 0 20px #4CAF50;
 }
 
 button:hover {
-    background-color: #7a3aee;
+    background-color: #388E3C; /* Fondo verde más oscuro al pasar el ratón */
 }
 
 /* Estilo para la imagen original */
@@ -78,8 +81,8 @@ button:hover {
 #originalImage {
     width: 100%;
     height: auto;
-    border: 5px solid #9b4dff;
-    box-shadow: 0 0 15px #9b4dff;
+    border: 5px solid #4CAF50; /* Borde verde */
+    box-shadow: 0 0 15px #4CAF50; /* Sombra verde */
 }
 
 /* Sección de imágenes procesadas */
@@ -101,8 +104,8 @@ button:hover {
     height: 200px;  /* Asegura que las imágenes tengan el mismo alto */
     object-fit: cover;  /* Asegura que las imágenes no se deformen y llenen el recuadro */
     border-radius: 10px;  /* Esquinas redondeadas */
-    border: 3px solid #9b4dff; /* Borde luminoso */
-    box-shadow: 0 0 15px #9b4dff;  /* Efecto de iluminación */
+    border: 3px solid #4CAF50; /* Borde verde */
+    box-shadow: 0 0 15px #4CAF50;  /* Efecto de iluminación verde */
 }
 
 /* Efecto al pasar el ratón */
@@ -116,8 +119,8 @@ button:hover {
     width: 100px;  /* Tamaño pequeño para cada imagen */
     height: 100px;
     overflow: hidden;
-    border: 3px solid #9b4dff; /* Borde luminoso */
-    box-shadow: 0 0 15px #9b4dff;  /* Efecto de iluminación */
+    border: 3px solid #4CAF50; /* Borde verde */
+    box-shadow: 0 0 15px #4CAF50;  /* Efecto de iluminación verde */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,3 +141,4 @@ button:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
+
